@@ -1,0 +1,48 @@
+.productList {
+  padding: 10px 40px;
+}
+.productlistHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.ProductlistAddproductBtn {
+  padding: 0.5rem 1rem;
+  background-color: #32bdea;
+  color: #fff;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.tableWrapper img{
+    height: 50px;
+    width: 50px;
+}
+.tableWrapper table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #fff;
+  border-radius: 10px;
+}
+th,
+td {
+  text-align: center !important;
+}
+
+th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #32bdea;
+    color: white;
+  }
+td, th {
+    border: 1px solid #ddd;
+  padding: 8px;
+}
+tr:nth-child(even){background-color: #f2f2f2;}
+tr:hover {background-color: #ddd;}
+#icon{
+    color:#676e8a;
+    margin: 0px 5px;
+    cursor: pointer;
+}
